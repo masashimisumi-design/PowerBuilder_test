@@ -1,3 +1,4 @@
+```pb
 $PBExportHeader$d_manifest_monthly_report.srd
 $PBExportComments$月次マニフェスト管理・請求集計表（排出事業者別）
 release 10.5;
@@ -81,3 +82,4 @@ line(band=summary x1="10" y1="10" x2="3100" y2="10" pen.style="double" pen.width
 text(band=summary alignment="0" text="【総合計】" border="0" color="33554432" x="1200" y="30" height="70" width="300" html.valueishtml="0"  name=t_grand_total_lbl visible="1"  font.face="ＭＳ Ｐゴシック" font.height="-11" font.weight="700"  font.family="2" font.pitch="2" font.charset="128" background.mode="1" background.color="536870912" )
 compute(band=summary alignment="1" expression="sum(weight_kg for all)" border="2" color="33554432" x="1600" y="30" height="70" width="300" format="#,##0.00" html.valueishtml="0"  name=c_grand_weight visible="1"  font.face="ＭＳ ゴシック" font.height="-10" font.weight="700"  font.family="2" font.pitch="2" font.charset="128" background.mode="1" background.color="16777215" )
 compute(band=summary alignment="1" expression="sum(amount for all)" border="2" color="33554432" x="2200" y="30" height="70" width="300" format="#,##0" html.valueishtml="0"  name=c_grand_amount visible="1"  font.face="ＭＳ ゴシック" font.height="-10" font.weight="700"  font.family="2" font.pitch="2" font.charset="128" background.mode="1" background.
+```
